@@ -5,7 +5,7 @@
  *
  * Description: print a quest using a function size_t
  *
- * return 1 (error)
+ * return 1 (error).
 */
 
 int main(void)
