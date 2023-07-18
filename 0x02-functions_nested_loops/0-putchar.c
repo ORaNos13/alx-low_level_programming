@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char str[] = "_putcher";
+	char str[] = "putcher";
 	int ch;
 	
 	for (ch = 0; ch < 8; ch++ )
