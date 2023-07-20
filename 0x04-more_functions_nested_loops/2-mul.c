@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * _isdigit - check if numbers are 0 - 9
- * @c: char to be checked
- *
- * Return: 0 or 1
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
-
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
-}
+ int mul;
 
+ mul = a * b;
+
+ return (mul);
+}
